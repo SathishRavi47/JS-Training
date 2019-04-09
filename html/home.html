@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trending</title>
+        <link rel="stylesheet" href="../css/home.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/popper.min.js"></script>
+        <script src="../js/home.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 logo-part zero-padding">
+                        <p>Trending.com</p>
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-10 nav-part zero-padding">
+                        <ul class="nav-list">
+                            <li class="link-1">Women</li>
+                            <li class="link-1">Men</li>
+                            <li class="link-1">Baby & Kids</li>
+                            <li class="link-1">Home Fashion</li>
+                            <li class="link-1">Offers</li>
+                            <li class="search-container">
+                                <form>
+                                  <input type="text" placeholder="Search.." name="search">
+                                </form>
+                            </li>
+                            <li>
+                                <img class="cart-img" src="../assets/shopping_cart.png">
+                                <div id="total-count" class="count hide">
+                                    <p id="class-count-id" class="class-count"></p>
+                                </div>
+                            </li>
+                            <li class="heart-li">
+                                <img class="heart-img" src="../assets/heart.png">
+                            </li>
+                            <li class="user-li">
+                                <img class="user-img" src="../assets/user.png">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row second-row">
+            <div class="col-lg-2 col-md-1 col-sm-1 col-1"></div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-4">
+                <h1>NOW A WIDE RANGE OF <span>KURTIS</span> TO CHOOSE FROM !</h1>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-6 head-carousel">
+                <img src="../assets/designer-kurtis-jeans.png">
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12 third-row">
+            <div class="col-lg-4 col-md-4 col-sm-3 col-3"></div>
+            <div class="col-lg-1 col-md-1 col-sm-1 col-1">
+                <hr>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-4 text-center">
+                TRENDING NOW
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 col-1"> <hr></div>
+            <div class="col-lg-4 col-md-4 col-sm-3 col-3">
+               
+            </div>
+        </div>
+        <div class="container text-center my-3">
+            <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                <div class="carousel-inner w-100" role="listbox">
+                    <div class="carousel-item row no-gutters active">
+                        <div class="col-3 float-left"><img class="img-fluid" src="../assets/baby-girl.png"><img class="cart-img1" onclick="addToCart()" src="../assets/shopping_cart.png"><img class="heart-img1 hide" id="heart-icon" onclick="makeClicked1()" src="../assets/heart.png"><img class="heart-img1" id="gray-heart-icon" onclick="makeClicked()" src="../assets/gray-heart.png"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="../assets/now-trending.png"><img class="cart-img1" onclick="addToCart()" src="../assets/shopping_cart.png"><img class="heart-img1 hide" src="../assets/heart.png"><img class="heart-img1" src="../assets/gray-heart.png"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="../assets/baby-girl.png"><img class="cart-img1" onclick="addToCart()" src="../assets/shopping_cart.png"><img class="heart-img1 hide" src="../assets/heart.png"><img class="heart-img1" src="../assets/gray-heart.png"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="../assets/now-trending.png"><img class="cart-img1" onclick="addToCart()" src="../assets/shopping_cart.png"><img class="heart-img1 hide" src="heart.png"><img class="heart-img1" src="../assets/gray-heart.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12 third-row">
+                <div class="col-lg-4 col-md-4 col-sm-3 col-3"></div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-1">
+                    <hr>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-4 text-center">
+                    RECENTLY VIEWED
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-1"> <hr></div>
+                <div class="col-lg-4 col-md-4 col-sm-3 col-3">
+                   
+                </div>
+            </div>
+            <div class="container text-center my-3">
+                <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                    <div class="carousel-inner w-100" role="listbox">
+                        <div class="carousel-item row no-gutters active">
+                            <div class="col-3 float-left"><img class="img-fluid" src="../assets/banner-trend.png"><img class="cart-img1" src="../assets/shopping_cart.png"><img class="heart-img1" src="../assets/gray-heart.png"><img class="heart-img1 hide" src="../assets/heart.png"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="../assets/polka-dots.png"><img class="cart-img1" src="../assets/shopping_cart.png"><img class="heart-img1" src="../assets/gray-heart.png"><img class="heart-img1 hide" src="../assets/heart.png"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="../assets/banner-trend.png"><img class="cart-img1" src="../assets/shopping_cart.png"><img class="heart-img1" src="../assets/gray-heart.png"><img class="heart-img1 hide" src="../assets/heart.png"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="../assets/polka-dots.png"><img class="cart-img1" src="../assets/shopping_cart.png"><img class="heart-img1" src="../assets/gray-heart.png"><img class="heart-img1 hide" src="../assets/heart.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12 third-row">
+                    <div class="col-lg-4 col-md-4 col-sm-3 col-3"></div>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-1">
+                        <hr>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-4 col-4 text-center">
+                        SIMILAR PRODUCTS
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-1"> <hr></div>
+                    <div class="col-lg-4 col-md-4 col-sm-3 col-3">
+                       
+                    </div>
+                </div>
+                <div class="container text-center my-3">
+                    <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                        <div class="carousel-inner w-100" role="listbox">
+                            <div class="carousel-item row no-gutters active">
+                                <div class="col-3 float-left"><img class="img-fluid" src="../assets/girl-baby.jpg"><img class="cart-img1" src="../assets/shopping_cart.png"><img class="heart-img1" src="../assets/gray-heart.png"><img class="heart-img1 hide" src="../assets/heart.png"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="../assets/girl-baby-3.jpg"><img class="cart-img1" src="../assets/shopping_cart.png"><img class="heart-img1" src="../assets/gray-heart.png"><img class="heart-img1 hide" src="../assets/heart.png"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="../assets/girl-baby-4.jpg"><img class="cart-img1" src="../assets/shopping_cart.png"><img class="heart-img1" src="../assets/gray-heart.png"><img class="heart-img1 hide" src="../assets/heart.png"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="../assets/girl-baby-1.jpg"><img class="cart-img1" src="../assets/shopping_cart.png"><img class="heart-img1" src="../assets/gray-heart.png"><img class="heart-img1 hide" src="../assets/heart.png"></div>
+                         </div>
+                        </div>
+                    </div>
+                </div>
+    </body>
+</html>

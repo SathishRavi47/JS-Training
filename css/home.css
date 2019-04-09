@@ -1,0 +1,109 @@
+.zero-padding {
+    padding: 0px;
+}
+.logo-part {
+    color: red;
+}
+.logo-part p {
+    margin-top: 20px;
+    font-family: cursive;
+    font-style: italic;
+}
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    font-family: cursive;
+}
+.nav-list {
+    margin: 0px;
+}
+.nav-list li {
+    margin: 20px;
+}
+.second-row {
+    background: #f7f7f7;
+    margin: 0px !important;
+}
+.second-row span {
+    color: red;
+}
+.second-row h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+    font-family: cursive;
+}
+.head-carousel img {
+    width: 87%;
+}
+.nav-list .search-container {
+    float: right;
+}
+.search-container input {
+    outline: none;
+}
+ul li .cart-img {
+    width: 35px;
+}
+ul li .heart-img {
+    width: 25px;
+}
+ul .heart-li {
+    margin: 20px 0 0 0;
+}
+ul li .user-img {
+    width: 40px;
+}
+ul .user-li {
+  margin: 18px 0 0 14px;  
+}
+.third-row {
+    display: flex;
+    margin: 20px 0px;
+}
+.third-row .col-lg-2 {
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+.cart-img1 {
+    width: 30px;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 5px;
+    cursor: pointer;
+}
+.heart-img1 {
+    width: 21px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+.count {
+    background: red;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 18px;
+    right: 163px;
+    border-radius: 7px;
+}
+.class-count {
+    margin: 0px !important;
+    position: absolute;
+    top: -3px;
+    left: 4px;
+    font-size: 13px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Times New Roman';
+}
